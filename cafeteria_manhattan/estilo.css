@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topo {
+    background-color: #604829;
+    padding: 25px;
+    margin: 0;
+    position: fixed;
+    width: 2000px;
+    height: 80px;
+}
+
+.logo {
+    width: 80px;
+    position: relative;
+    right: -250px;
+    top: -35px;
+}
+
+.secao-logo {
+    left: 50px;
+    padding: 10px;
+    top: -1350px;
+}
+
+.links-topo {
+    left: 1200px;
+    top: -105px;
+    display: inline;
+    position: relative;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+}
+
+.links-topo a {
+    text-decoration: none;
+    color: #c4a47c;
+    font-size: 20px;
+    text-shadow: 5px 5px 2px black;
+    font-weight: bold;
+}
+
+.banner-gmimage img, .segunda-bgimage img, .terceira-bgimage img, .quarta-bgimage img, .horarios img {
+    width: 1900px;
+    background-image: url("imagens/parallax-imagem1.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: "Fraunces", serif;
+    position: absolute;
+    top: 480px;
+    left: 300px;
+    color: #fff;
+    font-size: 100px;
+    font-weight: normal;
+}
+
+.sobre, .cafe-manhattan, .conheça {
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre h2, .cafe-manhattan h2 , .conheça h2{
+    color: #c4a47c;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    padding: 40px;
+}
+
+.sobre p, .cafe-manhattan p , .conheça p {
+    font-family: "Lato" , sans-serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 37px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.segunda-bgimage, .terceira-bgimage {
+    position: relative;
+}
+
+h3 {
+    font-family: "Fraunces", serif;
+    font-size: 25px;
+    font-style: italic;
+    color: #fff;
+    letter-spacing: 5px;
+    background-color: #604829;
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    left: 685px;
+}
+
+.segunda-bgimage img, .terceira-bgimage img {
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.quarta-bgimage {
+    position: relative;
+}
+
+.quarta-bgimage h2 {
+    font-family: "Oswald", sans-serif;
+    letter-spacing: 5px;
+    background-color: #604829;
+    text-align: center;
+    margin: auto;
+    width: 27%;
+    padding: 13px;
+    color: #fff;
+    margin: 10px;
+    position: absolute;
+    top: 100px;
+    left: 660px;
+}
+
+iframe {
+    position: absolute;
+    top: 250px;
+    left: 380px;
+}
+
+.quarta-bgimage ul{
+    width: 30%;
+    position: absolute;
+    bottom: 180px;
+    left: 650px;
+    
+}
+
+.quarta-bgimage li {
+    background-color: #604829;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    font-size: 17px;
+    text-shadow: 0px 8px 5px black;
+}
+
+.lista-horarios li { /* tag <li> */
+    position: relative;
+    top: 200px;
+}
+
+.lista-horarios li h3 { /* subtitulo = <h3> */
+    position: inherit;
+    margin-bottom: 20px;
+    color: #fff;
+    left: -400px;
+    top: 0px;
+}
+
+.lista-horarios li div { /* tarja = <div> */
+    width: 70%;
+    height: 1px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    right: 0;
+    left: 0;
+    background-color: #ACACAC
+}
+
+.lista-horarios li p, .texto-marrom { /* paragrafo + span*/
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+}
+
+.texto-marrom {
+    color: #c4a47c;
+}
+
+.lista-horarios li p {
+    color: #ACACAC;
+}
+
+.horarios {
+    height: 85vh;
+    position: relative;
+    height: 800px;
+}
+
+.horarios h2 {
+    position: absolute;
+    margin: 0 auto;
+    top: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    letter-spacing: 8px;
+    color: white;
+}
+
+.lista-horarios { /* tag <ul> */
+    max-width: 768px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: 20%;
+    right: 0;
+    left: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+/*RODAPE*/
+.rodape {
+    position: relative;
+    padding: 20px 0;
+    line-height: 34px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #fff;
+    bottom: -300px;
+}
+
+.rodape span {
+    color: #c4a47c;
+}
+
+.rodape a {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    bottom: 80px;
+    right: 50px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 4px;
+}
